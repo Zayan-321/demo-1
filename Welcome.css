@@ -1,0 +1,31 @@
+
+.card-container h1{
+  color: rgb(136,136,136);
+}
+.card-container{
+  width: 3500px;
+  border-radius:15px ;
+  box-shadow: 10px 5px 26px rgb(135,135,135);
+  overflow:hidden ;
+  text-align: center;
+  
+  
+}
+
+.image-container{
+  width: 100%;
+  height: 200px;
+  
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ .section-two{
+   display: flex;
+   justify-content: space-evenly;
+   height:100vh;
+   align-items: center;
+   
+ }

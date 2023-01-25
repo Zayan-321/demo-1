@@ -1,0 +1,133 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family:Arial,Sans-Serif;
+}
+header{
+  width:100%;
+  background-color:rgba(23,23,23,0.15);
+  padding:20px;
+  position: absolute ;
+  top:0;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+header a{
+  text-decoration: none;
+  margin-right: 40px;
+  letter-spacing:1px;
+  color: rgb(255,255,255,0.719);
+  font-family: Tahoma;
+}
+ 
+.banner-container{
+  margin-top:60px;
+  width: 100%;
+  height:100vh;
+  background:linear-gradient(red,yellow,blue);
+  background-attachment: fixed;
+  background-position:center;
+}
+.left-section{
+  width: 200px;
+  
+}
+ .left-section h1{
+    color: white;
+    font-size:20px;
+  }
+  .left-section p{
+    color:lime;
+    font-size: 17px;
+    margin-top:20px;
+    line-height:20px;
+    
+  }
+  
+  
+
+.banner-container .container{
+  display:fixed;
+  justify-content: space-around;
+  width:100% ;
+  align-items: center;
+}
+.left-section button{
+  color: red;
+  background-color:lime;
+  
+  border: none;
+  border-radius: 6px;
+  margin-top:16px ;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.right-section{
+  width:300px;
+  background-color:white;
+  border-radius: 5px;
+  padding:0.55px 0;
+  box-shadow: 0 5px; 6px rgba()
+  
+}
+
+.right-section h4{
+  color: blue;
+  font-size:20px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.input-group{
+  width: 20px;
+  margin: 40px;
+position: relative;
+  flex-direction: column;
+}
+
+.input-group label{
+  color: rgba(125,125,125,0.87);
+position:input;
+top: 10px;
+}
+
+.input-group input{
+  padding: 7px;
+  margin-top: 5px;
+  
+  color: ;
+}
+
+.input-group input:focus~label{
+  
+ color: red;
+}
+.input-group input:focus,
+  .input-group input:valid{
+    border-color: red;
+  } 
+  
+  .submit-button{
+    background-color: rgba(125,125,125,0.87);
+    color: yellow;
+    border:none;
+    padding:11px 0;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+    
+  }
+  .submit-button hover{
+    box-shadow: 0 3px 6px silver;
+  }
