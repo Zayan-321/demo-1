@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8"/>
       
-      <title> zayyanzz store</title>
+      <title> my firs web</title>
       <link rel="stylesheet" href="./STyle.css"/>
     </head>
     
