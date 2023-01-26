@@ -27,7 +27,10 @@ header a{
   color: rgb(255,255,255,0.719);
   font-family: Tahoma;
 }
- 
+ header .container img{
+width: 20px;
+height: 20px;
+}
 .banner-container{
   margin-top:60px;
   width: 100%;
