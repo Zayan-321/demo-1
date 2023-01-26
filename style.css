@@ -116,7 +116,11 @@ top: 10px;
   .input-group input:valid{
     border-color: red;
   } 
-  
+   .input-group input[type=checkbox] {
+    accent-color:red;
+    color: rgba(125,125,125,0.87);
+    
+        }
   .submit-button{
     background-color: rgba(125,125,125,0.87);
     color: yellow;
