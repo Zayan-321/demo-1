@@ -52,8 +52,19 @@
                   </div>
                  
                   <div class="checkbox">
-<input type="checkbox" onclick="myfunction()"/>
+<input type="checkbox" onclick="mypass()"/>
+<label for="checkbox">show password</label>
                      </div>
+<script>
+Function mypass() {
+var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else{
+X.type="password"
+}
+}
+</script>
                      
                   
                   <div class="submit-section">
