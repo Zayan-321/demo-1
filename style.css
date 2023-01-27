@@ -16,7 +16,7 @@ header{
 }
 
 header .container{
-  display: flex;
+  display:10px;
   justify-content: space-between;
 }
 
